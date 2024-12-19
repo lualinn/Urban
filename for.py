@@ -3,6 +3,8 @@ primes = []
 not_primes = []
 
 for number in numbers:
+    if number == 1:
+        continue
     is_prime = True
 
     for divisor in range(2, number):
